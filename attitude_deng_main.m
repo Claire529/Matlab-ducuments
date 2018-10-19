@@ -1,6 +1,6 @@
-clc
-close all
-clear all 
+%clc
+%close all
+%clear all 
 t=0:1/25/100:1/25;
  x=[0;0;0;0;0;0]; 
  tau=0.2;
