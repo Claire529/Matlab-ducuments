@@ -1,3 +1,4 @@
+% forces and torques on the wings
 function [Mxyz,Pxyz,dx]=attitude_angle_lxp(t,x,tau)
 theta = x(1,:);%pitch
 phi = x(2,:);%yaw
