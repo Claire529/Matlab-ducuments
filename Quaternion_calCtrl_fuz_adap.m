@@ -1,5 +1,5 @@
 
-
+% loop for fuzzy system
 function s_fun=Quaternion_calCtrl_fuz_adap(e,ce,e_center,ce_center,e_width,ce_width)
 maxNum=50.0;
 e_n=length(e_center);
