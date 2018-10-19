@@ -1,3 +1,4 @@
+% backstepping with fuzzy based on quaternion representation
 function [dx,w,q,angle,tao]=Quaternion_fuzzy_backstepping(t,x,k1,k2,k3,k4,k5,k6,c_q1,ce_q1,w_c_q1,w_ce_q1,c_q2,ce_q2,w_c_q2,w_ce_q2,c_q3,ce_q3,w_c_q3,w_ce_q3)
 
 w_1 = x(1,:);
