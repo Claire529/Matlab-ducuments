@@ -1,3 +1,4 @@
+% the relationship between force and parameters
 load tau_x;
 load tau_y;
 load tau_z;
